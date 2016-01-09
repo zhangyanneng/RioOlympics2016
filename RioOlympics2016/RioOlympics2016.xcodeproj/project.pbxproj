@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E98014C1C40D70D00060AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E98014B1C40D70D00060AFD /* Assets.xcassets */; };
+		2E9801541C40DC9900060AFD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9801531C40DC9900060AFD /* HomeViewController.m */; };
+		2E98015A1C40E58200060AFD /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9801591C40E58200060AFD /* ScheduleViewController.m */; };
+		2E98015D1C40E59200060AFD /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E98015C1C40E59200060AFD /* CountDownViewController.m */; };
+		2E9801601C40E97600060AFD /* EventsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E98015F1C40E97600060AFD /* EventsViewCell.m */; };
+		2E9801631C40EAFE00060AFD /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9801621C40EAFE00060AFD /* EventsViewController.m */; };
+		2E9801661C40EB2D00060AFD /* EventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9801651C40EB2D00060AFD /* EventsDetailViewController.m */; };
+		2ED0A9891C3E91B9000BFE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0A9881C3E91B9000BFE8E /* main.m */; };
+		2ED0A98C1C3E91B9000BFE8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0A98B1C3E91B9000BFE8E /* AppDelegate.m */; };
+		2ED0A98F1C3E91B9000BFE8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0A98E1C3E91B9000BFE8E /* ViewController.m */; };
+		2ED0A9921C3E91B9000BFE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED0A9901C3E91B9000BFE8E /* Main.storyboard */; };
+		2ED0A9971C3E91B9000BFE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED0A9951C3E91B9000BFE8E /* LaunchScreen.storyboard */; };
+		2ED0A9A21C3E91B9000BFE8E /* RioOlympics2016Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0A9A11C3E91B9000BFE8E /* RioOlympics2016Tests.m */; };
+		2ED0A9AD1C3E91B9000BFE8E /* RioOlympics2016UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0A9AC1C3E91B9000BFE8E /* RioOlympics2016UITests.m */; };
+		2ED0A9BD1C3E9272000BFE8E /* BusinessLogicLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED0A9BC1C3E9272000BFE8E /* BusinessLogicLayer.framework */; };
+		2ED0A9BF1C3E9276000BFE8E /* PersistenceLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED0A9BE1C3E9276000BFE8E /* PersistenceLayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ED0A99E1C3E91B9000BFE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ED0A97C1C3E91B9000BFE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED0A9831C3E91B9000BFE8E;
+			remoteInfo = RioOlympics2016;
+		};
+		2ED0A9A91C3E91B9000BFE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ED0A97C1C3E91B9000BFE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED0A9831C3E91B9000BFE8E;
+			remoteInfo = RioOlympics2016;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E98014B1C40D70D00060AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E9801521C40DC9900060AFD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2E9801531C40DC9900060AFD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2E9801581C40E58200060AFD /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		2E9801591C40E58200060AFD /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		2E98015B1C40E59200060AFD /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		2E98015C1C40E59200060AFD /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		2E98015E1C40E97600060AFD /* EventsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewCell.h; sourceTree = "<group>"; };
+		2E98015F1C40E97600060AFD /* EventsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewCell.m; sourceTree = "<group>"; };
+		2E9801611C40EAFE00060AFD /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		2E9801621C40EAFE00060AFD /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		2E9801641C40EB2D00060AFD /* EventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDetailViewController.h; sourceTree = "<group>"; };
+		2E9801651C40EB2D00060AFD /* EventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDetailViewController.m; sourceTree = "<group>"; };
+		2ED0A9841C3E91B9000BFE8E /* RioOlympics2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RioOlympics2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED0A9881C3E91B9000BFE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ED0A98A1C3E91B9000BFE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ED0A98B1C3E91B9000BFE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ED0A98D1C3E91B9000BFE8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2ED0A98E1C3E91B9000BFE8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ED0A9911C3E91B9000BFE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ED0A9961C3E91B9000BFE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ED0A9981C3E91B9000BFE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED0A99D1C3E91B9000BFE8E /* RioOlympics2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RioOlympics2016Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED0A9A11C3E91B9000BFE8E /* RioOlympics2016Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RioOlympics2016Tests.m; sourceTree = "<group>"; };
+		2ED0A9A31C3E91B9000BFE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED0A9A81C3E91B9000BFE8E /* RioOlympics2016UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RioOlympics2016UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED0A9AC1C3E91B9000BFE8E /* RioOlympics2016UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RioOlympics2016UITests.m; sourceTree = "<group>"; };
+		2ED0A9AE1C3E91B9000BFE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED0A9BC1C3E9272000BFE8E /* BusinessLogicLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BusinessLogicLayer.framework; path = "../BusinessLogicLayer/build/Debug-iphoneos/BusinessLogicLayer.framework"; sourceTree = "<group>"; };
+		2ED0A9BE1C3E9276000BFE8E /* PersistenceLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PersistenceLayer.framework; path = "../PersistenceLayer/build/Debug-iphoneos/PersistenceLayer.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ED0A9811C3E91B9000BFE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED0A9BF1C3E9276000BFE8E /* PersistenceLayer.framework in Frameworks */,
+				2ED0A9BD1C3E9272000BFE8E /* BusinessLogicLayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED0A99A1C3E91B9000BFE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED0A9A51C3E91B9000BFE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ED0A97B1C3E91B9000BFE8E = {
+			isa = PBXGroup;
+			children = (
+				2ED0A9BE1C3E9276000BFE8E /* PersistenceLayer.framework */,
+				2ED0A9BC1C3E9272000BFE8E /* BusinessLogicLayer.framework */,
+				2ED0A9861C3E91B9000BFE8E /* RioOlympics2016 */,
+				2ED0A9A01C3E91B9000BFE8E /* RioOlympics2016Tests */,
+				2ED0A9AB1C3E91B9000BFE8E /* RioOlympics2016UITests */,
+				2ED0A9851C3E91B9000BFE8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ED0A9851C3E91B9000BFE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ED0A9841C3E91B9000BFE8E /* RioOlympics2016.app */,
+				2ED0A99D1C3E91B9000BFE8E /* RioOlympics2016Tests.xctest */,
+				2ED0A9A81C3E91B9000BFE8E /* RioOlympics2016UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ED0A9861C3E91B9000BFE8E /* RioOlympics2016 */ = {
+			isa = PBXGroup;
+			children = (
+				2ED0A98A1C3E91B9000BFE8E /* AppDelegate.h */,
+				2ED0A98B1C3E91B9000BFE8E /* AppDelegate.m */,
+				2ED0A98D1C3E91B9000BFE8E /* ViewController.h */,
+				2ED0A98E1C3E91B9000BFE8E /* ViewController.m */,
+				2ED0A9901C3E91B9000BFE8E /* Main.storyboard */,
+				2ED0A9951C3E91B9000BFE8E /* LaunchScreen.storyboard */,
+				2ED0A9981C3E91B9000BFE8E /* Info.plist */,
+				2E98014B1C40D70D00060AFD /* Assets.xcassets */,
+				2ED0A9871C3E91B9000BFE8E /* Supporting Files */,
+				2E9801521C40DC9900060AFD /* HomeViewController.h */,
+				2E9801531C40DC9900060AFD /* HomeViewController.m */,
+				2E98015E1C40E97600060AFD /* EventsViewCell.h */,
+				2E98015F1C40E97600060AFD /* EventsViewCell.m */,
+				2E9801611C40EAFE00060AFD /* EventsViewController.h */,
+				2E9801621C40EAFE00060AFD /* EventsViewController.m */,
+				2E9801641C40EB2D00060AFD /* EventsDetailViewController.h */,
+				2E9801651C40EB2D00060AFD /* EventsDetailViewController.m */,
+				2E9801581C40E58200060AFD /* ScheduleViewController.h */,
+				2E9801591C40E58200060AFD /* ScheduleViewController.m */,
+				2E98015B1C40E59200060AFD /* CountDownViewController.h */,
+				2E98015C1C40E59200060AFD /* CountDownViewController.m */,
+			);
+			path = RioOlympics2016;
+			sourceTree = "<group>";
+		};
+		2ED0A9871C3E91B9000BFE8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ED0A9881C3E91B9000BFE8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ED0A9A01C3E91B9000BFE8E /* RioOlympics2016Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2ED0A9A11C3E91B9000BFE8E /* RioOlympics2016Tests.m */,
+				2ED0A9A31C3E91B9000BFE8E /* Info.plist */,
+			);
+			path = RioOlympics2016Tests;
+			sourceTree = "<group>";
+		};
+		2ED0A9AB1C3E91B9000BFE8E /* RioOlympics2016UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ED0A9AC1C3E91B9000BFE8E /* RioOlympics2016UITests.m */,
+				2ED0A9AE1C3E91B9000BFE8E /* Info.plist */,
+			);
+			path = RioOlympics2016UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ED0A9831C3E91B9000BFE8E /* RioOlympics2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED0A9B11C3E91B9000BFE8E /* Build configuration list for PBXNativeTarget "RioOlympics2016" */;
+			buildPhases = (
+				2ED0A9801C3E91B9000BFE8E /* Sources */,
+				2ED0A9811C3E91B9000BFE8E /* Frameworks */,
+				2ED0A9821C3E91B9000BFE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RioOlympics2016;
+			productName = RioOlympics2016;
+			productReference = 2ED0A9841C3E91B9000BFE8E /* RioOlympics2016.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ED0A99C1C3E91B9000BFE8E /* RioOlympics2016Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED0A9B41C3E91B9000BFE8E /* Build configuration list for PBXNativeTarget "RioOlympics2016Tests" */;
+			buildPhases = (
+				2ED0A9991C3E91B9000BFE8E /* Sources */,
+				2ED0A99A1C3E91B9000BFE8E /* Frameworks */,
+				2ED0A99B1C3E91B9000BFE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED0A99F1C3E91B9000BFE8E /* PBXTargetDependency */,
+			);
+			name = RioOlympics2016Tests;
+			productName = RioOlympics2016Tests;
+			productReference = 2ED0A99D1C3E91B9000BFE8E /* RioOlympics2016Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2ED0A9A71C3E91B9000BFE8E /* RioOlympics2016UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED0A9B71C3E91B9000BFE8E /* Build configuration list for PBXNativeTarget "RioOlympics2016UITests" */;
+			buildPhases = (
+				2ED0A9A41C3E91B9000BFE8E /* Sources */,
+				2ED0A9A51C3E91B9000BFE8E /* Frameworks */,
+				2ED0A9A61C3E91B9000BFE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED0A9AA1C3E91B9000BFE8E /* PBXTargetDependency */,
+			);
+			name = RioOlympics2016UITests;
+			productName = RioOlympics2016UITests;
+			productReference = 2ED0A9A81C3E91B9000BFE8E /* RioOlympics2016UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ED0A97C1C3E91B9000BFE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zyn;
+				TargetAttributes = {
+					2ED0A9831C3E91B9000BFE8E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2ED0A99C1C3E91B9000BFE8E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2ED0A9831C3E91B9000BFE8E;
+					};
+					2ED0A9A71C3E91B9000BFE8E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2ED0A9831C3E91B9000BFE8E;
+					};
+				};
+			};
+			buildConfigurationList = 2ED0A97F1C3E91B9000BFE8E /* Build configuration list for PBXProject "RioOlympics2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ED0A97B1C3E91B9000BFE8E;
+			productRefGroup = 2ED0A9851C3E91B9000BFE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ED0A9831C3E91B9000BFE8E /* RioOlympics2016 */,
+				2ED0A99C1C3E91B9000BFE8E /* RioOlympics2016Tests */,
+				2ED0A9A71C3E91B9000BFE8E /* RioOlympics2016UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ED0A9821C3E91B9000BFE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED0A9971C3E91B9000BFE8E /* LaunchScreen.storyboard in Resources */,
+				2E98014C1C40D70D00060AFD /* Assets.xcassets in Resources */,
+				2ED0A9921C3E91B9000BFE8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED0A99B1C3E91B9000BFE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED0A9A61C3E91B9000BFE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ED0A9801C3E91B9000BFE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9801661C40EB2D00060AFD /* EventsDetailViewController.m in Sources */,
+				2ED0A98F1C3E91B9000BFE8E /* ViewController.m in Sources */,
+				2E98015A1C40E58200060AFD /* ScheduleViewController.m in Sources */,
+				2E9801601C40E97600060AFD /* EventsViewCell.m in Sources */,
+				2E98015D1C40E59200060AFD /* CountDownViewController.m in Sources */,
+				2ED0A98C1C3E91B9000BFE8E /* AppDelegate.m in Sources */,
+				2E9801631C40EAFE00060AFD /* EventsViewController.m in Sources */,
+				2ED0A9891C3E91B9000BFE8E /* main.m in Sources */,
+				2E9801541C40DC9900060AFD /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED0A9991C3E91B9000BFE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED0A9A21C3E91B9000BFE8E /* RioOlympics2016Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED0A9A41C3E91B9000BFE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED0A9AD1C3E91B9000BFE8E /* RioOlympics2016UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ED0A99F1C3E91B9000BFE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED0A9831C3E91B9000BFE8E /* RioOlympics2016 */;
+			targetProxy = 2ED0A99E1C3E91B9000BFE8E /* PBXContainerItemProxy */;
+		};
+		2ED0A9AA1C3E91B9000BFE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED0A9831C3E91B9000BFE8E /* RioOlympics2016 */;
+			targetProxy = 2ED0A9A91C3E91B9000BFE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ED0A9901C3E91B9000BFE8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED0A9911C3E91B9000BFE8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ED0A9951C3E91B9000BFE8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ED0A9961C3E91B9000BFE8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ED0A9AF1C3E91B9000BFE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ED0A9B01C3E91B9000BFE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ED0A9B21C3E91B9000BFE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RioOlympics2016/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.RioOlympics2016;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2ED0A9B31C3E91B9000BFE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RioOlympics2016/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.RioOlympics2016;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2ED0A9B51C3E91B9000BFE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RioOlympics2016Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.RioOlympics2016Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
+			};
+			name = Debug;
+		};
+		2ED0A9B61C3E91B9000BFE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RioOlympics2016Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.RioOlympics2016Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RioOlympics2016.app/RioOlympics2016";
+			};
+			name = Release;
+		};
+		2ED0A9B81C3E91B9000BFE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RioOlympics2016UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.RioOlympics2016UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RioOlympics2016;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2ED0A9B91C3E91B9000BFE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RioOlympics2016UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyn.RioOlympics2016UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RioOlympics2016;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ED0A97F1C3E91B9000BFE8E /* Build configuration list for PBXProject "RioOlympics2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED0A9AF1C3E91B9000BFE8E /* Debug */,
+				2ED0A9B01C3E91B9000BFE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED0A9B11C3E91B9000BFE8E /* Build configuration list for PBXNativeTarget "RioOlympics2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED0A9B21C3E91B9000BFE8E /* Debug */,
+				2ED0A9B31C3E91B9000BFE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED0A9B41C3E91B9000BFE8E /* Build configuration list for PBXNativeTarget "RioOlympics2016Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED0A9B51C3E91B9000BFE8E /* Debug */,
+				2ED0A9B61C3E91B9000BFE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED0A9B71C3E91B9000BFE8E /* Build configuration list for PBXNativeTarget "RioOlympics2016UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED0A9B81C3E91B9000BFE8E /* Debug */,
+				2ED0A9B91C3E91B9000BFE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ED0A97C1C3E91B9000BFE8E /* Project object */;
+}
